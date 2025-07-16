@@ -1,4 +1,4 @@
-namespace Learning_.NET.Models
+namespace Learning_DotNet.Models
 {
     public class ErrorViewModel
     {
