@@ -11,6 +11,6 @@ namespace Learning_DotNet.DataAccess.Repository.IRepository
     public interface ICategoryRepository :IRepository<Category> 
     {
         void Update(Category obj);
-        void Save();
+     
     }
 }
