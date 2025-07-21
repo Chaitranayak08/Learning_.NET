@@ -12,7 +12,7 @@ namespace Learning_DotNet.Utility
         public Task SendEmailAsync(string email, string subject, string htmlMessage)
         {
             //logic to send email
-            throw new NotImplementedException();
+            return Task.CompletedTask;
         }
     }
 }

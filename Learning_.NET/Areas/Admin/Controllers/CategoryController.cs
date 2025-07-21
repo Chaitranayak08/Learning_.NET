@@ -3,10 +3,13 @@
 using Learning_DotNet.DataAccess.Repository.IRepository;
 using Microsoft.AspNetCore.Mvc;
 using Learning_DotNet.DataAccess.Repository.IRepository;
+using Microsoft.AspNetCore.Authorization;
+using Learning_DotNet.Utility;
 
 namespace Learning_DotNet.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    [Authorize(Roles =SD.Role_Admin)]
     public class CategoryController : Controller
     {
         private readonly IUnitOfWork _unitOfWork;
