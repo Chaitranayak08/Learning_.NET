@@ -10,9 +10,9 @@ namespace Learning_DotNet.DataAccess.Repository.IRepository
     public interface IRepository<T> where T:class
     {
         //T- Category (or any other Model)
-        IEnumerable<T> GetAll();
+        IEnumerable<T> GetAll(string? includeProperties = null);
 
-        T Get(Expression<Func<T,bool>> filter);  //to retrieve one category
+        T Get(Expression<Func<T,bool>> filter, string? includeProperties = null);  //to retrieve one category
 
         void Add(T entity);
         void Remove(T entity);
