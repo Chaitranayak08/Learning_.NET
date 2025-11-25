@@ -24,7 +24,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Learning_DotNet_DataAccess\Learning_DotNet_DataAccess.csproj" />
+    <ProjectReference Include="..\Learning_DotNet.DataAccess\Learning_DotNet.DataAccess.csproj" />
   </ItemGroup>
 
   <ItemGroup>
