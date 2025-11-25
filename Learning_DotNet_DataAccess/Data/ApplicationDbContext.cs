@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
-namespace Learning_DotNet_DataAccess.Data;
+namespace Learning_DotNet.DataAccess.Data;
 
 public class ApplicationDbContext : IdentityDbContext<IdentityUser>
 {
